@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		258227201FBCB82100035F20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2582271F1FBCB82100035F20 /* main.cpp */; };
+		258227281FBCBB8600035F20 /* Patient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258227261FBCBB8600035F20 /* Patient.cpp */; };
+		2582272B1FBCBB9100035F20 /* Procedure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258227291FBCBB9100035F20 /* Procedure.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2582271C1FBCB82100035F20 /* CPP-PRG-13-04-Patient-Charges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP-PRG-13-04-Patient-Charges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2582271F1FBCB82100035F20 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		258227261FBCBB8600035F20 /* Patient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Patient.cpp; sourceTree = "<group>"; };
+		258227271FBCBB8600035F20 /* Patient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Patient.hpp; sourceTree = "<group>"; };
+		258227291FBCBB9100035F20 /* Procedure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Procedure.cpp; sourceTree = "<group>"; };
+		2582272A1FBCBB9100035F20 /* Procedure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Procedure.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2582271F1FBCB82100035F20 /* main.cpp */,
+				258227261FBCBB8600035F20 /* Patient.cpp */,
+				258227271FBCBB8600035F20 /* Patient.hpp */,
+				258227291FBCBB9100035F20 /* Procedure.cpp */,
+				2582272A1FBCBB9100035F20 /* Procedure.hpp */,
 			);
 			path = "CPP-PRG-13-04-Patient-Charges";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				258227201FBCB82100035F20 /* main.cpp in Sources */,
+				2582272B1FBCBB9100035F20 /* Procedure.cpp in Sources */,
+				258227281FBCBB8600035F20 /* Patient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
